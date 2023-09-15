@@ -40,7 +40,7 @@ public class Category {
     private String lastModifiedUser;
 
     @Column(name = "version")
-    private BigDecimal version;
+    private Long version;
 
     private List<Product> products;
 
